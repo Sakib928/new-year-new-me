@@ -86,3 +86,43 @@ body {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.my-plans-title {
+  margin-top: 150px;
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.skill-block {
+  display: block;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.skill-list {
+  margin-left: 160px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+.skill-title {
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.skill-todo {
+  color: var(--Dark-03, #737272);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
