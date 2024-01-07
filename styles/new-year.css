@@ -14,6 +14,7 @@ body {
   width: 100%;
 }
 .banner-content {
+  display: block;
   margin-left: 700px;
   margin-right: 50px;
   padding: 30px 30px 0px 150px;
@@ -23,32 +24,65 @@ body {
   max-width: 525px;
   color: #fff;
   text-align: right;
-  font-family: Work Sans;
   font-size: 65px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .banner-description {
   margin-top: 24px;
   color: #fff;
   text-align: right;
-  font-family: Work Sans;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
 }
 .banner-button {
-  margin-top: 10px;
+  margin-top: 13px;
   border-style: none;
   border-radius: 5px;
   background: #fff;
   color: #005fac;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
-  padding: 5px;
+  padding: 10px 5px 10px 5px;
   margin-left: 295px;
+}
+/* main related styles */
+.failures {
+  margin-top: 250px;
+  display: block;
+}
+.picture-column {
+  display: block;
+}
+.my-failures {
+  margin-left: 140px;
+  margin-top: 130px;
+  margin-right: 120px;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.failure-heading {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.failure-details {
+  color: var(--Dark-02, #444343);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 15px;
+}
+.failure-list {
+  color: var(--Dark-02, #444343);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
