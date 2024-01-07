@@ -1,7 +1,7 @@
 /* common shared styles */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0 0 5px 0;
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -46,6 +46,7 @@ body {
   margin-left: 295px;
 }
 /* main related styles */
+/* my failure section */
 .failures {
   margin-top: 250px;
   display: block;
@@ -86,6 +87,7 @@ body {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+/* my plans section */
 .my-plans-title {
   margin-top: 150px;
   color: var(--Dark-01, #151414);
@@ -98,6 +100,7 @@ body {
 }
 .skill-block {
   display: block;
+  text-align: center;
 }
 .logo {
   width: 50px;
@@ -108,7 +111,8 @@ body {
   margin-left: 160px;
   margin-right: 120px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-bottom: 120px;
 }
 .skill-title {
   color: var(--Dark-01, #151414);
@@ -117,12 +121,50 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 10px;
 }
-.skill-todo {
+.skill-detail {
   color: var(--Dark-03, #737272);
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+/* positive mindset section */
+.positive-mindset {
+  background-image: url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  text-align: left;
+}
+.call-container {
+  background-image: url("/images/gradient3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: block;
+}
+.heading {
+  padding-left: 60px;
+  padding-top: 60px;
+  max-width: 350px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.call-now {
+  margin-top: 13px;
+  border-style: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 60px;
+  padding: 20px 15px 20px 15px;
 }
