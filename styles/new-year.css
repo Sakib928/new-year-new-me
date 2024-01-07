@@ -89,14 +89,14 @@ body {
 }
 /* my plans section */
 .my-plans-title {
-  margin-top: 150px;
+  margin-top: 100px;
   color: var(--Dark-01, #151414);
   text-align: center;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .skill-block {
   display: block;
@@ -108,11 +108,11 @@ body {
   margin-bottom: 15px;
 }
 .skill-list {
-  margin-left: 160px;
-  margin-right: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 .skill-title {
   color: var(--Dark-01, #151414);
@@ -136,14 +136,16 @@ body {
   background-image: url("/images/watch.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 280px;
   text-align: left;
+  margin: 0 150px 50px;
+  border-radius: 5px;
 }
 .call-container {
   background-image: url("/images/gradient3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 280px;
   display: block;
 }
 .heading {
@@ -167,4 +169,67 @@ body {
   font-weight: 600;
   margin-left: 60px;
   padding: 20px 15px 20px 15px;
+}
+/* footer section styles */
+.footer-container {
+  padding: 50px 150px 100px;
+  background: var(--Dark-01, #151414);
+  height: 300px;
+  display: flex;
+  gap: 400px;
+}
+.footer-left {
+  max-width: 450px;
+}
+.footer-left-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-left-description {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.email,
+.phone {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.social-logos {
+  width: 175px;
+  height: 46px;
+}
+.s-title {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.e-class {
+  border-radius: 5px;
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.s-button {
+  border-radius: 8px;
+  background: #005fac;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 5px;
 }
